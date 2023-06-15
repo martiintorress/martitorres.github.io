@@ -1,0 +1,17 @@
+.articulo{
+    display: flex;
+    background-color: $coloruno;
+    margin-top: 10px;
+flex-wrap: wrap;
+
+
+
+}
+
+.img-historia{
+@include tamanio2
+
+
+}
+
+

@@ -1,0 +1,11 @@
+article{
+    display: flex;
+    background-color: $coloruno;
+    margin-top: 10px;
+}
+ 
+.img-20{
+@include tamanio
+
+
+}

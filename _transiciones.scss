@@ -1,0 +1,40 @@
+.card-hija{
+    transition: all .9s;
+  }
+  
+  .card-hija:hover{
+  transform: scale(1.1);
+  }
+  
+  
+  .trans{
+    margin: auto;
+    display: table;
+  }
+  
+  h1{
+    float: left;
+    position: relative;
+  
+  }
+  
+  
+  h1 span{
+    position: absolute;
+    right: 0;
+    width: 0;
+    background-color: skyblue;
+    border-left: solid $colordos 1px;
+  
+    animation: maquina 5s infinite alternate steps(31);
+  }
+   
+  @keyframes maquina{
+    from{
+      width: 100%;
+    }
+  
+    to{
+      width: 0;
+    }
+  }
